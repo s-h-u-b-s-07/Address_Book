@@ -69,11 +69,11 @@ public class Contact {
         this.email = email;
     }
 
-    public Long getZipCode() {
+    public Long getZipcode() {
         return zipcode;
     }
 
-    public void setZipCode(Long zipcode) {
+    public void setZipcode(Long zipcode) {
         this.zipcode = zipcode;
     }
 
@@ -85,4 +85,11 @@ public class Contact {
         this.phoneNumber = phoneNumber;
     }
 
+    public void display() {
+        System.out.println(" FIRST NAME: " + getFirstName() + " LAST NAME: " + getLastName() + " ADDRESS: " + getAddress() + " CITY " + getCity()
+                + " STATE:" + getState() + " EMAIL ID:" + getEmail() + " ZIP CODE:" + getZipCode() + " PHONE NUMBER:" + getPhoneNumber());
+    }
+
+
 }
+
